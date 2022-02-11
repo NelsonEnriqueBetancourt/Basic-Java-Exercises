@@ -1,12 +1,12 @@
-package Challengetopic1.Exercise2.Clases;
+package Challengetopic1.Exercise4Ejemplo.Clases;
 
-import Challengetopic1.Exercise2.Interfaces.Producto;
+import Challengetopic1.Exercise4Ejemplo.Interfaces.Producto;
 
 import javax.swing.*;
 
 public class Product_2 extends Store_linea implements Producto {
      private String name="Papas";
-     private float price=0;
+     private float price=2000;
 
      public Product_2(int codiProducto) {
           super(codiProducto);

@@ -1,8 +1,8 @@
-package Challengetopic1.Exercise2;
+package Challengetopic1.Exercise4Ejemplo;
 
-import Challengetopic1.Exercise2.Clases.Product_1;
-import Challengetopic1.Exercise2.Clases.Product_2;
-import Challengetopic1.Exercise2.Clases.Product_3;
+import Challengetopic1.Exercise4Ejemplo.Clases.Product_1;
+import Challengetopic1.Exercise4Ejemplo.Clases.Product_2;
+import Challengetopic1.Exercise4Ejemplo.Clases.Product_3;
 
 public class Main {
     public static void main(String[] args) {

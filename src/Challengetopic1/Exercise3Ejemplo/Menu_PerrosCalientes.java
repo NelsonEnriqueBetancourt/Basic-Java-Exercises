@@ -1,4 +1,4 @@
-package Challengetopic1.Exercise3;
+package Challengetopic1.Exercise3Ejemplo;
 
 import java.util.Scanner;
 

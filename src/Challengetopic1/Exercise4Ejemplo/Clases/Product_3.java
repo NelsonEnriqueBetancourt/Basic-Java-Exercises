@@ -1,6 +1,6 @@
-package Challengetopic1.Exercise2.Clases;
+package Challengetopic1.Exercise4Ejemplo.Clases;
 
-import Challengetopic1.Exercise2.Interfaces.Producto;
+import Challengetopic1.Exercise4Ejemplo.Interfaces.Producto;
 
 import javax.swing.*;
 
