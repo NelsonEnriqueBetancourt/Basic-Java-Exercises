@@ -12,7 +12,7 @@ public class Reproductor1 extends Abstracta {
 
     @Override
     public void Despedirse() {
-        System.out.println("Gracias por su compra ");
+        System.out.println("Gracias por su compra \n");
     }
 
     public void DarNombre(String nombre){
