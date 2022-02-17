@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>FABRICA IMPRESORAS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">CONTROL DE IMPRESORAS</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/agregar">AGREGAR IMPRESORA<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<br>
+
+<div class="container text-center">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">OPCIONES</th>
+            <th scope="col">URL</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="Printer: ${listaimpresora}" >
+            <td th:text="${Printer.id}" ></td>
+            <td th:text="${Printer.nombre}",></td>
+            <td th:text="${Printer.opciones}"></td>
+            <td><a class="nav-link" href="/nuevo">Link-B/N</a>
+                <a class="nav-link" href="/color">Link-COLOR</a></li>
+                <a class="nav-link" href="/color y b_n">Link-COLOR Y B/N</a>
+                <a class="nav-link" href="/text">Link-TEXT</a></li>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
